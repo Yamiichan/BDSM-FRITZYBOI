@@ -1,0 +1,443 @@
+.container {
+    background-color: #2B4865;
+    padding: 355px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container h1{
+    position: absolute;
+    width: 339px;
+    height: 80px;
+    left: 572px;
+    top: 62px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 36px;
+    line-height: 150px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container p {
+    
+position: absolute;
+width: 680px;
+height: 138px;
+left: 410px;
+top: 72px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400px;
+font-size: 30px;
+line-height: 50px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height: 270px;
+    left: 300px;
+    top: 210px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.ContactUs h1{
+    position: absolute;
+    width: 146.2px;
+    height: 35.43px;
+    left: 330px;
+    top: 209px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+.ContactUs p{
+    position: absolute;
+    width: 316px;
+    height: 31px;
+    left: 330px;
+    top: 240px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ContactUs img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 335px;
+    top: 310px;
+}
+
+.email p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 390px;
+    top: 285px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.service img {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 335px;
+    top: 366px;
+}
+
+.service p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 390px;
+    top: 340px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.service button {
+    position:absolute;
+    left: 25.96%;
+    right: 58.44%;
+    top: 57.75%;
+    bottom: 35.62%;
+    background: #439BC8;
+    border-radius: 30px;
+    color: black;
+    font-size: 26px;
+}
+.boxes {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height:270px;
+    left: 300px;
+    top: 495px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.socmed h1{
+    position: absolute;
+    width: 146.2px;
+    height: 35.43px;
+    left: 330px;
+    top: 509px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 135%;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DCDCDC;
+}
+.socmed img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 330px;
+    top: 608px;
+}
+
+.socmed p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 415px;
+    top: 591px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.socmed .twitter img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 330px;
+    top: 677px;
+}
+
+.socmed .twitter p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 440px;
+    top: 655px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.boxs{
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height: 270px;
+    left: 809px;
+    top: 210px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.Call h1{
+    position: absolute;
+    width: 146.2px;
+    height: 35.43px;
+    left: 840px;
+    top: 209px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+.Call p {
+    position: absolute;
+    width: 316px;
+    height: 31px;
+    left: 840px;
+    top: 240px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Call img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 835px;
+    top: 310px;
+}
+
+.Call p1{
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 900px;
+    top: 308px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.CallUs img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 835px;
+    top: 366px;
+}
+
+.CallUs p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 950px;
+    top: 343px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.bxs {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height:270px;
+    left: 809px;
+    top: 495px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.Branch h1{
+    position: absolute;
+    width: 300.2px;
+    height: 35.43px;
+    left: 840px;
+    top: 509px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align:inherit;
+    color: #DCDCDC;
+}
+
+.Branch img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 835px;
+    top: 580px;
+}
+
+.Branch p {
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 900px;
+    top: 561px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.Branch p1{
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 900px;
+    top: 630px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.Branch p2{
+    position: absolute;
+    width: 236px;
+    height: 36px;
+    left: 900px;
+    top: 678px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.Salitran img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 835px;
+    top: 630px;
+}
+
+.Robinson img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 835px;
+    top: 678px;
+}
+
+@media (max-width: 998px) {
+    .container h1 {
+        position: absolute;
+        width: 339vh;
+        height: 68vh;
+        left: 190px;
+        font-size: 108px;
+    }
+
+
+
+}

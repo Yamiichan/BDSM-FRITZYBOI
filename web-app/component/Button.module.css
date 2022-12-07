@@ -1,0 +1,29 @@
+.primary {
+    background-color: #c51f3b;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .primary:hover {
+    background-color: #95182d;
+  }
+  
+  .secondary {
+    background-color: transparent;
+    width: 140px;
+    height: 60px;
+    color: white;
+    font-family: 'Armata';
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .secondary:hover {
+    text-decoration: underline;
+  }

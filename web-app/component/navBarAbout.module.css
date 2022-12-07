@@ -1,0 +1,117 @@
+.home {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B4865;
+    color: white;
+}
+
+.logo img {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    left: 7px;
+    top: 9px;
+    display: flex;
+}
+
+.navbarlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbarlinks li {
+    list-style: none;
+    font-size: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Armata';
+
+    
+}
+
+.navbarlinks li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbarlinks li:hover{
+    text-decoration: underline;
+}
+
+.togglebutton {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.togglebutton .bar {
+    height: 25%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbarlinks .About {
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .togglebutton {
+        height: 69px;
+        width: 240px;
+        display: flex;
+        padding-left: 120px;
+        padding-right: 10px;
+       
+    }
+
+    .navbarlinks {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbarlinks ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbarlinks li {
+        text-align: center;
+    }
+
+    .navbarlinks a{
+        padding: .5rem 1rem;
+    }
+
+    .navbarlinks.active {
+        display: flex;
+    }
+    
+}
+
+@media (min-width:1300px) {
+    .togglebutton .bar{
+        display: none;
+    }
+}
