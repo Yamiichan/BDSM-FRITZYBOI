@@ -1,0 +1,38 @@
+.container .logo img{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    left: 7px;
+    top: 9px;
+    display: flex;
+}
+#toggle {
+  display: none;
+}
+
+.container .actions {
+    position: fixed;
+    display: flex;
+    left: 50.46%;
+    right: 23.46%;
+    top: 3.12%;
+    bottom: 92.09%;
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.actions .home Button{
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  
+}
+
