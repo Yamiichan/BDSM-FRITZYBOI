@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Yamiichan.git.io/BDSM-FRITZYBOI"
   "dependencies": {
     "next": "^11.1.0",
     "react-helmet": "^6.1.0"
@@ -13,12 +12,6 @@
     "parcel": "^2.8.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "vercel-build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "vercel-build": "next build"
   }
 }
